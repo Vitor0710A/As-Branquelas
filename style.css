@@ -84,17 +84,22 @@ div {
 
 }
 
-img {
-    width: 175px;
-    border-radius: 12px;
-    margin-bottom: 40px;
-    margin-left: 240px;
+
+
+
+.images {
+  display: flex;
+  gap: 200px; /* espaço entre as imagens */
 }
 
-.img2 {
-    max-height: 100%;
-    height: auto;
+.images img {
+  width: 50%; /* ajusta o tamanho de cada imagem */
+  height: auto;
+  width: 175px;
+  margin-left: 40px;
+  border-radius: 5%;
 }
+
 
 
 li {
